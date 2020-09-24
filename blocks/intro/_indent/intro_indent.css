@@ -1,0 +1,21 @@
+.intro_indent {
+  padding: 0 0 87px 0;
+}
+
+@media (min-width: 769px) and (max-width: 930px) {
+  .intro_indent {
+    padding: 0 24px 87px 24px;
+  }
+}
+
+@media (max-width: 766px) {
+  .intro_indent {
+    padding: 0 24px 64px 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro_indent {
+    padding: 0 16px 64px 16px;
+  }
+}

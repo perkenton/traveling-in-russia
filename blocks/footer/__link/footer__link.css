@@ -1,0 +1,13 @@
+.footer__link {
+  text-decoration: none;
+  color: #FFF;
+  transition: .3s linear;
+  background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3));
+  background-size: 0%;
+  background-repeat: no-repeat;
+  display: inline;
+}
+
+.footer__link:hover {
+  background-size: 100%;
+}

@@ -1,0 +1,27 @@
+.places_indent {
+  padding: 102px 0 95px 0;
+}
+
+@media (min-width: 769px) and (max-width: 930px) {
+  .places_indent {
+    padding: 102px 24px 95px 24px;
+  }
+}
+
+@media (max-width: 730px) {
+  .places_indent {
+    padding: 102px 24px 95px 24px;
+  }
+}
+
+@media (max-width: 583px) {
+  .places_indent {
+    padding: 102px 0 95px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .places_indent {
+    padding: 64px 0;
+  }
+}

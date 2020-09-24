@@ -1,0 +1,15 @@
+.comments_indent {
+  padding: 0 0 80px 0;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .comments_indent {
+    padding: 0 16px 80px 16px;
+  }
+}
+
+@media (max-width: 620px) {
+  .comments_indent {
+    padding: 0 16px 80px 16px;
+  }
+}

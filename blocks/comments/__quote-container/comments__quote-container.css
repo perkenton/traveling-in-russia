@@ -1,0 +1,10 @@
+.comments__quote-container {
+  margin: 0;
+}
+
+@media (max-width: 884px) {
+  .comments__quote-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

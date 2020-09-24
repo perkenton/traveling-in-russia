@@ -1,0 +1,16 @@
+.places__url-block {
+  align-self: flex-end;
+  padding: 0 0 53px 0;
+}
+
+@media (max-width: 768px) {
+  .places__url-block {
+    padding: 0 0 40px 0;
+  }
+}
+
+@media (max-width: 583px) {
+  .places__url-block {
+    display: none;
+  }
+}

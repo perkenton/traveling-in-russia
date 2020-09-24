@@ -1,0 +1,31 @@
+.cover_image {
+  background-image: url(../../../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 46.5%;
+}
+
+@media (max-width: 1024px) {
+  .cover_image {
+    padding-bottom: 54%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover_image {
+    padding-bottom: 65%;
+  }
+}
+
+@media (max-width: 375px) {
+  .cover_image {
+    padding-bottom: 73%;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover_image {
+    padding-bottom: 68%;
+  }
+}

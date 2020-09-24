@@ -1,0 +1,36 @@
+@import url(__title/intro__title.css);
+@import url(__text/intro__text.css);
+@import url(__list/intro__list.css);
+@import url(__list-item/intro__list-item.css);
+@import url(__text-subhead/intro__text-subhead.css);
+@import url(_indent/intro_indent.css);
+
+.intro {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro {
+    max-width: 343px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+  }
+}

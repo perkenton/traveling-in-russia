@@ -1,0 +1,9 @@
+.photo-grid_indent {
+
+}
+
+@media (max-width: 1024px) {
+  .photo-grid_indent {
+    margin: 0 24px;
+  }
+}

@@ -1,0 +1,24 @@
+.places__link {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #FFF;
+  transition: .3s linear;
+  background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3));
+  background-size: 0%;
+  background-repeat: no-repeat;
+  margin: 0 0 0 -35px;
+}
+
+.places__link:hover {
+  background-size: 100%;
+}
+
+@media (max-width: 582px) {
+  .places__link {
+    display: none;
+  }
+}

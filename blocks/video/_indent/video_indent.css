@@ -1,0 +1,21 @@
+.video_indent {
+  padding: 0 0 106px 0;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .video_indent {
+    padding: 0 24px 106px 24px;
+  }
+}
+
+@media (max-width: 940px) {
+  .video_indent {
+    padding: 0 24px 106px 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video_indent {
+    padding: 0 16px 64px 16px;
+  }
+}
